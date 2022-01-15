@@ -1,0 +1,112 @@
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#221f31), to(#192d3a));
+  background-image: linear-gradient(90deg, #221f31 0%, #192d3a);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.banner {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.header-text {
+  font-size: 70px !important;
+  font-weight: 800;
+  background: -webkit-linear-gradient(#93f0e3, #49ceb1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.header-text-light {
+  font-size: 70px !important;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.text-sub-header {
+  font-size: 60px !important;
+  font-weight: 800;
+  text-align: center;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.small-text {
+  color: #fff;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  background-color: #05635b;
+  color: #fff !important;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  z-index: 2;
+}
+
+.name {
+  font-size: small;
+}
+
+@media (max-width: 968px) {
+  .card-wrapper {
+    margin: 10px !important;
+  }
+  .header-text, .header-text-light, .text-sub-header {
+    font-size: 50px !important;
+  }
+}
+
+@media (max-width: 568px) {
+  .header-text, .header-text-light, .text-sub-header {
+    font-size: 40px !important;
+  }
+}
+
+@media (max-width: 468px) {
+  .header-text, .header-text-light, .text-sub-header {
+    font-size: 35px !important;
+  }
+  .small-text {
+    color: #fff;
+    font-size: 15px;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=app.css.map */
