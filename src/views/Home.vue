@@ -9,7 +9,7 @@
      </div>
   
     <div class="row g-3">
-      <div class="col-12">
+      <div class="col-8 mx-auto">
         <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" v-model="search">
         
       </div>
