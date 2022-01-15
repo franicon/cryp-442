@@ -1,5 +1,7 @@
 # cryp-442
 
+Crypto Currency Market Cap biuld with vue with using CoinGeco API
+
 ## Project setup
 ```
 npm install
